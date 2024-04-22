@@ -1,4 +1,4 @@
-package ru.geekbrains.core.lesson2;
+package BaseCode;
 
 import java.util.Random;
 import java.util.Scanner;
