@@ -1,4 +1,4 @@
-# DZ_Yuferov_JAVAcore_Sem1
+# DZ_Yuferov_JAVAcore_Sem2
 
 ## Домашнее задание.
 
