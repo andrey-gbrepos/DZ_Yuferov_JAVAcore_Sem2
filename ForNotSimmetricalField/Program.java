@@ -260,7 +260,7 @@ public class Program {
                         } else countWin1 = 0;
                         row--;
                     }
-                // Просматриваем верхушки до величины WIN_COUNT (Выигрышного количества) с обоими диагоналями
+                // Просматриваем верхушки  
                 } else {
                     // Первая верхушка
                     row = i - 1;
@@ -272,7 +272,7 @@ public class Program {
                             if (countWin1 == WIN_COUNT) return true;
                         } else {countWin1 = 0;}
                         // Зеркальная для первой
-                        if (field[fieldSizeX-row -1][(fieldSizeY - col -1)] == dot) { // Проверка зеркальной законцовки
+                        if (field[fieldSizeX-row -1][(fieldSizeY - col -1)] == dot) { 
                             countWin2++;
                             if (countWin2 == WIN_COUNT) return true;
                         } else {countWin2 = 0;}
@@ -288,7 +288,7 @@ public class Program {
                             if (countWin1 == WIN_COUNT) return true;
                         } else {countWin1 = 0;}
                         // Зеркальная для второй
-                        if (field[fieldSizeX-row-1][fieldSizeY-col-1] == dot) { // Проверка зеркальной законцовки
+                        if (field[fieldSizeX-row-1][fieldSizeY-col-1] == dot) {  
                             countWin2++;
                             if (countWin2 == WIN_COUNT) return true;
                         } else {countWin2 = 0;}
@@ -328,7 +328,7 @@ public class Program {
                     }
 
                 } else {
-                    // Проверка законцовок
+                    // Верхушки
                     col = i;
                     countWin1 = 0;
                     countWin2 = 0;
